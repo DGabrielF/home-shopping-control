@@ -1,0 +1,29 @@
+.buttons-area {
+  padding: 10px 0;
+  width: 98%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttons-area button {
+  padding: 3px 0;
+  width: 45%;
+}
+
+.buttons-area button.confirm {
+  background-color: #b7f7d4;
+}
+
+@media screen and (max-width: 400px) {
+  .buttons-area {
+    flex-direction: column;
+    gap: 1vh;
+  }
+  .buttons-area button {
+    width: 75%;
+    text-transform: uppercase;
+  }
+}
