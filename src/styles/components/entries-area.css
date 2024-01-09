@@ -1,0 +1,42 @@
+.entries-area {
+  padding: 10px 0;
+  width: 98%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1vh;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+.entries-area label {
+  width: 35%;
+  text-transform: capitalize;
+  text-align: center;
+}
+.entries-area input {
+  width: 55%;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 400px) {
+  .entries-area {
+    gap: .5vh;
+  }
+  .entries-area label {
+    width: 98%;
+    text-align: center;
+  }
+  .entries-area input {
+    width: 98%;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .entries-area {
+    gap: .75vh;
+  }
+}
