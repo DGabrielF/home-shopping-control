@@ -19,6 +19,13 @@
 .entries-area input {
   width: 55%;
   text-align: center;
+
+  border: 1px solid #0000009a;
+  border-radius: 15px;
+}
+.entries-area input.error {
+  border: 1px solid #ff000066;
+  outline: 1px solid #ff000066;
 }
 
 

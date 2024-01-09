@@ -9,8 +9,12 @@
 }
 
 .buttons-area button {
+  text-transform: uppercase;
   padding: 3px 0;
   width: 45%;
+
+  border: 1px solid #0000009a;
+  border-radius: 15px;
 }
 
 .buttons-area button.confirm {
@@ -24,6 +28,5 @@
   }
   .buttons-area button {
     width: 75%;
-    text-transform: uppercase;
   }
 }
