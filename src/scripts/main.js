@@ -37,6 +37,16 @@ export const state = {
         pages: ["signup"],
         value: null,
       },
+    },
+    password: {
+      minSize: 6,
+      maxSize: 12,
+      allowNumbers: true,
+      allowLetters: true,
+      allowSpecialCharacteres: true,
+      needNumbers: true,
+      needLetters: true,
+      needSpecialCharacteres: true,
     }
   }
 }
