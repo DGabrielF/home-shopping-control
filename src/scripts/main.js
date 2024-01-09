@@ -38,15 +38,27 @@ export const state = {
         value: null,
       },
     },
-    password: {
-      minSize: 6,
-      maxSize: 12,
-      allowNumbers: true,
-      allowLetters: true,
-      allowSpecialCharacteres: true,
-      needNumbers: true,
-      needLetters: true,
-      needSpecialCharacteres: true,
+    settings: {
+      name: {
+        minSize: 2,
+        maxSize: 18,
+        allowNumbers: false,
+        allowLetters: true,
+        allowSpecialCharacteres: false,
+        needNumbers: false,
+        needLetters: true,
+        needSpecialCharacteres: false,
+      },
+      password: {
+        minSize: 6,
+        maxSize: 12,
+        allowNumbers: true,
+        allowLetters: true,
+        allowSpecialCharacteres: true,
+        needNumbers: true,
+        needLetters: true,
+        needSpecialCharacteres: true,
+      },
     }
   }
 }

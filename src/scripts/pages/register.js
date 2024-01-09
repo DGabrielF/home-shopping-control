@@ -78,7 +78,7 @@ function createButtonsArea() {
   confirm.disabled = true
   confirm.textContent = "confirmar";
   confirm.addEventListener("click", () => {
-    // Registrar no banco de dados
+    // TODO Registrar no banco de dados
     toast("Cadastro realizado", "success", "Entre pela primeira vez");
     setTimeout(() => removeToast(), 3000);
   })
