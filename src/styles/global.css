@@ -1,3 +1,6 @@
+@import url("./reset.css");
 @import url("./components/central-container.css");
 @import url("./components/separator.css");
 @import url("./components/entries-area.css");
+@import url("./components/buttons-area.css");
+@import url("./components/toast.css");
